@@ -1,0 +1,21 @@
+{
+  "$schema": "https://linear.app/.well-known/oauth-app-manifest.schema.json",
+  "schemaVersion": "1.0.0",
+  "distribution": "private",
+  "display": {
+    "iconUrl": "https://raw.githubusercontent.com/teamdynamite/linear-agent/main/icon.png"
+  },
+  "developer": {
+    "name": "teamdynamite"
+  },
+  "oauth": {
+    "client_name": "teamdynamite-agent",
+    "redirect_uris": [
+      "http://localhost:3000/oauth/callback"
+    ],
+    "grant_types": [
+      "authorization_code",
+      "client_credentials"
+    ]
+  }
+}
